@@ -1,0 +1,82 @@
+
+/* <-- set all fonts san serif */
+* {
+	font-size: 1em;
+	font-family: Helvetica, 'sans-serif' !important;
+
+}
+
+body {
+	padding: 0em 2em 0em 2em;
+}
+
+/* Nav */
+
+h1{
+	font-size: 4em;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	float: left;
+	line-height: .01em;
+
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 1em;
+	margin-top: 0px;
+}
+
+h4 {
+	font-size: .9em;
+	font-weight: 900;
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+}
+
+ul{
+	list-style:none;
+}
+
+.divider {
+	background-color: #000;
+	width: 100%;
+	height: 2px;
+	clear: both;
+	margin: 0 0 0 0;
+}
+
+li {
+	display: inline;
+	margin-right: 2em;
+	text-decoration: none;
+	font-weight: 700;
+	float: right;
+	margin-top: 4em;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.left{
+	float: left;
+	width: 15%;
+}
+
+.right {
+	float: right;
+	width: 80%;
+}
+
+aside{
+	padding: 0 0 0 0;
+}
+
+footer {
+	clear: both;
+	margin-top: -10px;
+
+}
