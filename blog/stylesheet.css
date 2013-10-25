@@ -60,8 +60,23 @@ li {
 
 }
 
+/* Links */
+
 a {
 	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #00afe6;
+}
+
+a:active{
+	color: #ee3e23;
+}
+
+a:visited{
+	color: #00b4b8;
 }
 
 
