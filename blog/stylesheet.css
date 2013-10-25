@@ -1,10 +1,27 @@
 
-/* <-- set all fonts san serif */
-* {
-	font-size: 1em;
-	font-family: Helvetica, 'sans-serif' !important;
+/* Import League-Gothic */
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('type/leaguegothic-regular-webfont.eot');
+    src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
+
+/* set all fonts san serif */
+
+* {
+	font-size: 1em;
+	font-family: Helvetica, 'sans-serif';
+
+}
+
 
 body {
 	padding: 25px;
@@ -12,43 +29,9 @@ body {
 
 /* Nav */
 
-h1{
-	font-size: 4em;
-	letter-spacing: -2px;
-	text-transform: uppercase;
-	float: left;
-	line-height: .01em;
-
-}
-
-h2 {
-	font-size: 2em;
-	line-height: 1em;
-	margin-top: 0px;
-	letter-spacing: -1px;
-	word-spacing: -5px;
-	text-transform: uppercase;
-
-}
-
-h4 {
-	font-size: .9em;
-	font-weight: 900;
-	padding: 0px;
-	margin: 20px 0px 0px 0px;
-}
-
 ul{
 	list-style:none;
 	padding: 0px;
-}
-
-.divider {
-	background-color: #7f7f7f;
-	width: 100%;
-	height: 2px;
-	clear: both;
-	margin: 0 0 0 0;
 }
 
 li {
@@ -60,11 +43,58 @@ li {
 
 }
 
+.divider {
+	background-color: #7f7f7f;
+	width: 100%;
+	height: 2px;
+	clear: both;
+	margin: 0 0 0 0;
+}
+
+/* Body Elements  */
+
+h1{
+	font-family: "leaguegothic-regular", Helvetica, sans-serif;
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	font-size: 1em;
+	line-height: 1em;
+	margin: 20px 0px 0px 0px;
+
+}
+
+h3 {
+	font-size: .8em;
+	font-weight: 900;
+	margin-bottom: 0px;
+	padding: 0px;
+
+}
+
+p {
+	font-size: .8em;
+	font-weight: 500;
+}
+
+
 /* Links */
 
 a {
 	text-decoration: none;
 	color: #000000;
+}
+
+
+
+a:visited{
+	color: #00b4b8;
 }
 
 a:hover {
@@ -75,9 +105,6 @@ a:active{
 	color: #ee3e23;
 }
 
-a:visited{
-	color: #00b4b8;
-}
 
 
 aside{
