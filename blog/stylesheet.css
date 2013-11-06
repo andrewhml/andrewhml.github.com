@@ -1,7 +1,6 @@
 
 /* Import League-Gothic */
 
-
 @font-face {
     font-family: 'league_gothicregular';
     src: url('type/leaguegothic-regular-webfont.eot');
@@ -90,8 +89,6 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
-
-
 
 a:visited{
 	color: #00b4b8;
