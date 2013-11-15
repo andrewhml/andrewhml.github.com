@@ -15,6 +15,7 @@
 
 /* set all fonts san serif */
 
+
 * {
 	font-size: 1em;
 	font-family: Helvetica, 'sans-serif';
@@ -27,6 +28,16 @@ body {
 }
 
 /* Nav */
+
+.title {
+	float: left;
+	max-width: 30%;
+}
+
+nav {
+	float: right;
+	margin-top: 60px;
+}
 
 ul{
 	list-style:none;
@@ -54,9 +65,9 @@ li {
 
 h1{
 	font-family: "leaguegothic-regular", Helvetica, sans-serif;
-	font-size: 2em;
-	line-height: 1em;
-	margin: 0px;
+	font-size: 2.5em;
+	line-height: 1.25em;
+	margin: 0  0 10px 0;
 	padding: 0px;
 	text-transform: uppercase;
 
@@ -80,6 +91,8 @@ h3 {
 p {
 	font-size: .8em;
 	font-weight: 500;
+	line-height: 1.5em;
+	margin: 0 0 40px 0;
 }
 
 
@@ -106,6 +119,9 @@ a:active{
 
 aside{
 	padding: 0 0 0 0;
+	margin-top: -20px;
+	position: absolute;
+	width: 20%;
 }
 
 footer {
@@ -115,6 +131,26 @@ footer {
 }
 
 footer p {
+	margin-top: 20px;
 	font-size: 1.25em;
-	font-weight: 700;
+	font-weight: 600;
+}
+
+.copyright{
+	font-weight: 100;
+	font-size: 1em;
+}
+
+.container{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+article {
+	margin-left: 30%;
+}
+
+article:first-child {
+	margin-top: 60px;
 }
