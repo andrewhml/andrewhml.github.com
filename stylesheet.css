@@ -54,14 +54,14 @@ a {
 
 .navbar {
 	position: relative;
-	min-height: 50px
+	min-height: 50px;
 	margin-bottom: 20px;
 	border: 1px solid transparent;
 }
 
 nav {
 	float: right;
-	margin-top: 60px;
+	margin-top: 52px;
 }
 
 nav a{
@@ -72,7 +72,7 @@ nav a{
 
 nav a:hover {
 	border-bottom: 5px solid #01b2c6;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 }
 
 nav ul{
