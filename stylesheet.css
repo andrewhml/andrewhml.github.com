@@ -13,26 +13,26 @@
 * {
 	font-size: 1em;
 	font-family: 'Questrial', sans-serif;
+
+	/* This css trick will make your webfonts buttery smooth and fine */
 	-webkit-font-smoothing: antialiased !important;
-    -webkit-text-stroke: 0.2pt !important;
+
+
 }
-
-
-
 
 body {
 	background: url(images/AHML_bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: 2em;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	padding: 2em;
 }
 
 a {
 	text-decoration: none;
 }
+
 
 
 ::-moz-selection { background: #01b2c6; color: #fff; text-shadow: none; }
@@ -52,7 +52,6 @@ a {
 .nav-logo {
 	border-bottom: 5px solid #01b2c6;
 	padding-bottom: 12px;
-	text-shadow: rgba(0, 0, 0, .01) 0 0 1px
 }
 
 .navbar {
@@ -148,7 +147,7 @@ header p {
 
 .btn {
 	display: inline-block;
-	padding: 10px 15px;
+	padding: 8px 15px;
 	margin-bottom: 0;
 	font-size: 1.4em;
 	font-weight: normal;
