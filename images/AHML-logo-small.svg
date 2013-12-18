@@ -2,12 +2,18 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="125px" height="75px" viewBox="0 0 125 75" enable-background="new 0 0 125 75" xml:space="preserve">
-<polygon fill="#FFFFFF" points="0.096,66.375 20.128,32.988 40.16,66.375 "/>
+	 width="125px" height="75px" viewBox="0 0 125 75" style="enable-background:new 0 0 125 75;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#E6E7E8;}
+	.st1{fill:#FFFFFF;}
+]]>
+</style>
+<polygon class="st1" points="0.1,66.4 20.1,33 40.2,66.4 "/>
 <g>
-	<path fill="#E6E7E8" d="M80.451,34.759c0.273-0.477,0.947-0.868,1.496-0.868h22.283c0.551,0,0.787,0.396,0.525,0.88L88.209,65.495
-		c-0.262,0.484-0.926,0.88-1.475,0.88H63.352c-0.55,0-0.777-0.391-0.503-0.868L80.451,34.759z"/>
+	<path class="st0" d="M80.5,34.8c0.3-0.5,0.9-0.9,1.5-0.9h22.3c0.6,0,0.8,0.4,0.5,0.9L88.2,65.5c-0.3,0.5-0.9,0.9-1.5,0.9H63.4
+		c-0.6,0-0.8-0.4-0.5-0.9L80.5,34.8z"/>
 </g>
-<polygon fill="#FFFFFF" points="52.072,8.625 34.746,8.625 27.167,21.258 54.237,66.375 86.723,66.375 "/>
-<polygon fill="#FFFFFF" points="105.414,33.891 82.025,33.891 101.516,66.375 124.904,66.375 "/>
+<polygon class="st1" points="52.1,8.6 34.7,8.6 27.2,21.3 54.2,66.4 86.7,66.4 "/>
+<polygon class="st1" points="105.4,33.9 82,33.9 101.5,66.4 124.9,66.4 "/>
 </svg>
