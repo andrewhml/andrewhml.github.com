@@ -48,7 +48,7 @@ a {
 
 .nav-logo {
 	border-bottom: 5px solid #01b2c6;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px
 }
 
@@ -62,7 +62,7 @@ a {
 
 nav {
 	float: right;
-	margin-top: 50px;
+	margin-top: 45px;
 }
 
 nav a{
@@ -74,7 +74,7 @@ nav a{
 
 nav a:hover {
 	border-bottom: 5px solid #01b2c6;
-	padding-bottom: 8px;
+	padding-bottom: 7px;
 }
 
 nav ul{
@@ -89,6 +89,10 @@ nav li {
 	font-weight: lighter;
 	margin: 0 1.5em;
 
+}
+
+nav li:first-child {
+	margin-left: 0;
 }
 
 
