@@ -49,6 +49,7 @@ a {
 .nav-logo {
 	border-bottom: 5px solid #01b2c6;
 	padding-bottom: 5px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px
 }
 
 .navbar {
@@ -120,9 +121,9 @@ header p {
 	color: #e2e2e2;
 	text-align: center;
 	margin: auto;
-	width: 50%;
+	width: 30%;
 	margin-bottom: 2em;
-	line-height: 1.5em;
+	line-height: 2em;
 }
 
 
