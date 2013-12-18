@@ -1,0 +1,174 @@
+/*!
+* Andrewhml.com
+* Copyright 2013 Syntheus, LLC
+*
+*
+*
+*/
+
+/* Import Questiral and Tienne fonts*/
+@import url(http://fonts.googleapis.com/css?family=Questrial|Tienne:400,700,900);
+
+
+* {
+	font-size: 1em;
+	font-family: 'Questrial', sans-serif;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+}
+
+
+
+
+body {
+	background: url(images/AHML_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Navbar */
+
+.logo {
+	display: inline-block;
+	width:150px;
+}
+
+.nav-logo {
+	border-bottom: 5px solid #01b2c6;
+	padding-bottom: 5px;
+}
+
+.navbar {
+	position: relative;
+	min-height: 50px
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+nav {
+	float: right;
+	margin-top: 60px;
+}
+
+nav a{
+	text-decoration: none;
+	display: inline;
+	color: white;
+}
+
+nav a:hover {
+	border-bottom: 5px solid #01b2c6;
+	padding-bottom: 5px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline;
+	font-size: 1.25em;
+	font-weight: normal;
+	margin: 0 1.5em;
+
+}
+
+
+/* Header Elements */
+
+header{
+	margin: auto auto;
+}
+
+header h1 {
+	font-size: 4em;
+	width: 50%;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 1.5em;
+	font-weight: normal;
+
+}
+
+header h1:first-child{
+	margin-top: 3em;
+}
+
+header p {
+	font-size: 1em;
+	font-family: 'Tienne', serif;
+	font-weight: normal;
+	color: #e2e2e2;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	margin-bottom: 2em;
+	line-height: 1.5em;
+}
+
+
+.colblock {
+	display: inline-block;
+	margin: 5px;
+	width: 2em;
+	height: 2em;
+	border: 2px solid white;
+	border-radius: 2px;
+	box-shadow: -2px 2px 2px black;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 15px;
+	margin-bottom: 0;
+	font-size: 1.4em;
+	font-weight: normal;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border-radius: 3px;
+	border-style: none;
+	text-align: center;
+	-webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+        -o-user-select: none;
+          user-select: none;
+
+}
+
+.btn-default{
+	background-color: #01b2c6;
+	color: white;
+	border-color: #01b2c6;
+	margin: auto;
+}
+
+header button {
+	margin-top: 2em;
+}
+
+.colors{
+	float: left;
+	clear: both;
+}
