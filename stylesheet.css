@@ -35,6 +35,8 @@ a {
 }
 
 
+::-moz-selection { background: #01b2c6; color: #fff; text-shadow: none; }
+::selection { background: #01b2c6; color: #fff; text-shadow: none; }
 
 
 
