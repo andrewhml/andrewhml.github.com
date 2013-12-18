@@ -68,6 +68,7 @@ nav a{
 	text-decoration: none;
 	display: inline;
 	color: white;
+	font-weight: lighter;
 }
 
 nav a:hover {
@@ -84,7 +85,7 @@ nav li {
 	text-decoration: none;
 	display: inline;
 	font-size: 1.25em;
-	font-weight: normal;
+	font-weight: lighter;
 	margin: 0 1.5em;
 
 }
