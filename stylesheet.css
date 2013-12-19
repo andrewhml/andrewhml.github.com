@@ -50,7 +50,7 @@ a {
 }
 
 .nav-logo {
-	border-bottom: 4px solid #01b2c6;
+	border-bottom: 4px solid #33cccc;
 	padding-bottom: 12px;
 }
 
@@ -75,7 +75,7 @@ nav a{
 }
 
 nav a:hover {
-	border-bottom: 4px solid #01b2c6;
+	border-bottom: 4px solid #33cccc;
 	padding-bottom: 7px;
 }
 
@@ -167,9 +167,9 @@ header p {
 }
 
 .btn-default{
-	background-color: #01b2c6;
+	background-color: #33cccc;
 	color: white;
-	border-color: #01b2c6;
+	border-color: #33cccc;
 	margin: auto;
 }
 
@@ -350,10 +350,6 @@ header button {
   -o-transition: height 0.4s linear;
   transition: height 0.4s linear;
   margin: 0;
-}
-
-.bars li:hover{
-	background-color: #01b2c6;
 }
 
 .bars:first-child {
