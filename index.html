@@ -1,72 +1,298 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-        <title>Andrew H.M. Lee</title>
-    </head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="The digital grounds of Andrew Lee">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
+        <title>AndrewHML</title>
+
+        <!-- Stylesheets -->
+        
+        <!-- Bootstrap min CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+        <!-- Font Awesome CSS -->
+
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+        <style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style>
+
+
+
+        
+    </head>
     <body>
-        <div class="navbar">
-            <div class="logo">
-                <a href="#">
-                    <?xml version="1.0" encoding="utf-8"?>
-                    <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                    <svg class="nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="125px" height="60px" viewBox="0 0 125 60" style="enable-background:new 0 0 125 60;" xml:space="preserve">
-                    <style type="text/css">
-                    <![CDATA[
-                        .st0{fill:#E6E7E8;}
-                        .st1{fill:#FFFFFF;}
-                    ]]>
-                    </style>
-                    <polygon class="st1" points="0.1,58.9 20.1,25.5 40.2,58.9 "/>
-                    <g>
-                        <path class="st0" d="M80.5,27.3c0.3-0.5,0.9-0.9,1.5-0.9h22.3c0.6,0,0.8,0.4,0.5,0.9L88.2,58c-0.3,0.5-0.9,0.9-1.5,0.9H63.4
-                            c-0.6,0-0.8-0.4-0.5-0.9L80.5,27.3z"/>
-                    </g>
-                    <polygon class="st1" points="52.1,1.1 34.7,1.1 27.2,13.8 54.2,58.9 86.7,58.9 "/>
-                    <polygon class="st1" points="105.4,26.4 82,26.4 101.5,58.9 124.9,58.9 "/>
-                    </svg>
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">work</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">connect</a></li>
-                    <li><a href="#">apps</a></li>
-                    <ul class="bars clearfix">
-                        <li class="bar1"></li>
-                        <li class="bar2"></li>
-                        <li class="bar3"></li>
-                        <li class="bar4"></li>
-                    </ul>
-                </ul>
-            </nav>
-        </div>
-        <header>
-            <h1>marketing</h1>
+        <div id="wrap">
+            <div id="main-nav" class="navbar navbar-fixed-top scroll-header">
+                <div class="container">
+                
+                    <div class="navbar-header">
+                    
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                            <i class="fa fa-bars 4x" style="color:white;"></i>
+                        </button>
+                        
+                        <!-- ======= LOGO ========-->
+                        <a class="navbar-brand scroll" data-easing="linear" data-url="true" href="http://andrewhml.github.io/">
+                            <svg class="nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 width="125px" height="60px" viewBox="0 0 125 60" style="enable-background:new 0 0 125 60;" xml:space="preserve">
+                                <style type="text/css">
+                                <![CDATA[
+                                    .st0{fill:#E6E7E8;}
+                                    .st1{fill:#FFFFFF;}
+                                ]]>
+                                </style>
+                                <polygon class="st1" points="0.1,58.9 20.1,25.5 40.2,58.9 "/>
+                                <g>
+                                    <path class="st0" d="M80.5,27.3c0.3-0.5,0.9-0.9,1.5-0.9h22.3c0.6,0,0.8,0.4,0.5,0.9L88.2,58c-0.3,0.5-0.9,0.9-1.5,0.9H63.4
+                                        c-0.6,0-0.8-0.4-0.5-0.9L80.5,27.3z"/>
+                                </g>
+                                <polygon class="st1" points="52.1,1.1 34.7,1.1 27.2,13.8 54.2,58.9 86.7,58.9 "/>
+                                <polygon class="st1" points="105.4,26.4 82,26.4 101.5,58.9 124.9,58.9 "/>
+                            </svg>
+                        </a> 
+                    
+                    </div>
+                    
+                    <div id="site-nav" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#work" class="scroll" data-easing="linear" data-url="true">work</a></li>
+                                <li><a href="#contact" class=" scroll" data-easing="linear" data-url="true">contact</a></li>
+                                <li><a href="http://andrewhml.com/">blog</a></li>
+                                <li><a href="#">apps</a></li>
+                                <li class="music music-toggle music-playing">
+                                    <a href="http://www.last.fm/user/xactlee" target="_blank" style="margin-right:0">
+                                        <ul class="bars clearfix">
+                                            <li class="bar1"></li>
+                                            <li class="bar2"></li>
+                                            <li class="bar3"></li>
+                                            <li class="bar4"></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div><!--End navbar-collapse -->
+                    
+                </div><!--End container -->
+                
+            </div><!--End main-nav -->
+            <header id="homeFullScreen" data-stellar-background-ratio="0.5">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-12 landing">
+                        <h1>marketing</h1>
             <h1>brand &amp; design</h1>
-            <p>Design thinker, growth hacker and problem solver,
-            <br/> with a passion for tech and visual communication.</p>
-            <p>
-                <a class="btn btn-default" href="#">learn more</a>
-            </p>
-        </header>
-        <section class="colors">
-            <div class="row">
-                <div class="colblock" style="background-color:#fe4444;"></div>
+            <p>Boston based consultant specializing in marketing, branding, and design,
+            <br/> for startups, small businesses and new initiatives.</p>
+            <a class="btn btn-primary scroll" data-easing="linear" data-url="true" href="#about">learn more</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+      <section id="about" class="slice color1">
+         <div class="container">
+             <h2>I'm a problem solver, design thinker, and growth marketer. <br>I use thoughtful design, and clear concise messagin to communicate value.</h2>
+         </div>
+        </section>
+
+        <section id="services" class="slice">
+        <div class="container">
+            <h1 class="slice-title">What I do</h1>
+            <h4 class="slice-subtitle">I focus on three core services, but offer many more like financial modeling.</h4>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="service">
+                  <i class="fa fa-fire fa-6x" style="vertical-align:middle;"></i>
+                  <h2>Branding &amp; Identity</h2>
+                    </div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  </div>
+          <div class="col-md-4">
+                <div class="service">
+                  <i class="fa fa-tablet fa-6x" style="vertical-align:middle;"></i>
+                  <h2>Web design &amp; UI</h2>
+                    </div>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+           </div>
+            <div class="col-md-4">
+                <div class="service">
+                  <i class="fa fa-bullseye fa-6x" style="vertical-align:middle;"></i>
+                  <h2>Marketing Strategy</h2>
+                    </div>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dichotomy">
+        <a href="#tools" class="btn-circle scroll">Creative <hr> Analytical</a>
+      </section>
+
+      <section id="tools" class="slice color2">
+        <div class="container">
+            <h1 class="slice-title2">Tools</h1>
+            <h4 class="slice-subtitle2">I tackle projects with a diverse toolkit</h4>
             <div class="row">
-                <div class="colblock" style="background-color:#282b34;"></div>
-                <div class="colblock" style="background-color:#e7e7e8;"></div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-keyboard-o fa-3x"></i>
+                    <p class="tool-text">python</p>
+                </div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-laptop fa-3x"></i>
+                    <p class="tool-text">balsamiq</p>
+                </div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-html5 fa-3x"></i>
+                    <p class="tool-text">html</p>
+                </div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-css3 fa-3x"></i>
+                    <p class="tool-text">css</p>
+                </div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-picture-o fa-3x"></i>
+                    <p class="tool-text">photoshop</p>
+                </div>
+                <div class="col-md-2 tool">
+                    <i class="fa fa-pencil fa-3x"></i>
+                    <p class="tool-text">illustrator</p>
+                </div>
             </div>
-            <div class="row">
-                <div class="colblock" style="background-color:#214040;"></div>
-                <div class="colblock" style="background-color:#00B2B2;"></div>
-                <div class="colblock" style="background-color:#33CCCC;"></div>
+        </div>
+      </section>
+
+      <section id="work" class="slice color1">
+        <div class="container">
+            <h1 class="slice-title">My work</h1>
+          <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/img-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>IMG Academy</h3>
+                        <p>strategy</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/socialfulcrum-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>Social Fulcrum</h3>
+                        <p>branding - design - strategy</p>
+                      </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/receptionit-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>ReceptionIt</h3>
+                        <p>branding - design - strategy</p>
+                      </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/beknown-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>Monster Worldwide</h3>
+                        <p>design - strategy</p>
+                      </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/easyceipt-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>SinoGael</h3>
+                        <p>strategy</p>
+                      </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/swifton-thumb.png" alt="...">
+                      <div class="caption">
+                        <h3>Swifton CFOs</h3>
+                        <p>financial accounting</p>
+                      </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section id="contact" class="slice color2">
+        <div class="container">
+            <h1 class="slice-title">Contact</h1>
+            <div class="row">
+                <div class="col-md-1 col-md-offset-1">
+                    <img src="img/pigeon-icon.png" alt="..." class="pigeon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <input class="form-control input-lg" type="text" placeholder="name">
+                </div>
+                <div class="col-md-5">
+                    <input class="form-control input-lg" type="text" placeholder="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <textarea class="form-control" rows="10" placeholder="message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">send pigeon</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="connect" class="slice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 connect">
+                        <div class="button-toolbar">
+                            <a href="https://twitter.com/andrewhml" target="_blank"><i class="fa fa-twitter fa-3x social-icon"></i></a>
+                            <a href="http://dribbble.com/AndrewHML" target="_blank"><i class="fa fa-dribbble fa-3x social-icon"></i></a>
+                            <a href="https://www.facebook.com/Andrew.HML" target="_blank"><i class="fa fa-facebook fa-3x social-icon"></i></a>
+                            <a href="http://www.linkedin.com/in/andrewhml" target="_blank"><i class="fa fa-linkedin fa-3x social-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p>copyright © 2014 Andrew Lee</p>
+            </div>
+            </section>
+        </div>
+        
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+
+
+        <!-- Custom  -->
+        <script type="text/javascript" src="js/custom.js"></script>
+
+
     </body>
 </html>
