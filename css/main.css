@@ -48,7 +48,7 @@ transition:padding .2s linear;
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 1em;
-  }
+}
 
 .nav>li>a {
   position: relative;
@@ -60,18 +60,22 @@ transition:padding .2s linear;
   color: #fff;
   text-decoration: none;
   padding: 0;
-  }
+}
 
 
 .nav>li>a:hover {
   background-color: transparent;
   border-bottom: 2px solid #01b2c6;
   padding-bottom: 10px;
-  }
+}
+
+.small-logo {
+  height: 50px;
+}
 
 a {
-color: #01b2c6;
-text-decoration: none;
+  color: #01b2c6;
+  text-decoration: none;
 }
 
 .sticky {
@@ -89,7 +93,7 @@ text-decoration: none;
   background-color: transparent;
   border-bottom: 2px solid #fff;
   padding-bottom: 10px;
-  }
+}
 
 
 .btn {
@@ -168,7 +172,6 @@ font-weight: 300;
 
 
 
-
 /*  ICON STYLING
 ================================================== */
 
@@ -229,6 +232,8 @@ header p {
   margin-bottom: 2em;
   line-height: 2em;
 }
+
+{}
 
 
 /* SLICES
