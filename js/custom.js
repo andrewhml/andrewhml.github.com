@@ -194,7 +194,15 @@ $(function() {
 
       }
 
-   ) 
+   )
+
+   // Toggle the Mobile Menu layout
+
+   $('#menu-toggle, .menu-close').on('click', function(){
+        $('#menu-toggle').toggleClass('active');
+        $('body').toggleClass('body-push-toleft');
+        $('#offcanvas-menu').toggleClass('menu-open');
+      });
 
 //helper
     
@@ -255,4 +263,10 @@ function sendMail (text, from_email, from_name) {
       
   //}
 }
+
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
 
