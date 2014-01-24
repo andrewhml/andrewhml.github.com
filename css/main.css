@@ -792,5 +792,9 @@ input[type=text]:focus, textarea:focus {
   height: 55px;
 }
 
+.form-callback {
+  margin-top: 100px;
+}
+
 
 

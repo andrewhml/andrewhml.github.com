@@ -247,7 +247,7 @@ function sendMail (text, from_email, from_name) {
   myMail.send(
     function( s ){
       if( s == 'sent'){
-        $('#form-container').html('<div class="form-thanks-msg">Thanks!!!!</div>')
+        $('#form-container').html('<h2 class="form-callback"> Your pigeon has flown. I&#39;ll be in touch shortly!</h1>')
       }
     }
   );
