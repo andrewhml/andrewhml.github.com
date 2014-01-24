@@ -4,63 +4,50 @@
 |--------------------------------------------------------------------------
 */  
 
-$(document).ready(function() {
-    "use strict";
+$(function() {
 
     /*
     |--------------------------------------------------------------------------
     |  fullwidth image
     |--------------------------------------------------------------------------
     */
-
-
-    if ($('#homeFullScreen').length)
-    {
-        fullscreenImage();
+    if ($('#homeFullScreen').length){
+      fullscreenImage();
     }
     //alert($('#mainHeader').height());
     //alert( $(window).height());
     var $starter = $(window).height()-($('#mainHeader').height());
     $(window).scroll(function() {
-
-     if ($('#fullScreen').length)
-     {
-
-    
+      if ($('#fullScreen').length){
         if ($(window).scrollTop()>= $starter){
-           $('#mainHeader').slideDown();
-       } else if ($(window).scrollTop()==0){
-           $('#mainHeader').slideUp();
-       } 
-   }
-
-     });
+          $('#mainHeader').slideDown();
+        } else if ($(window).scrollTop()==0){
+          $('#mainHeader').slideUp();
+        } 
+      }
+    });
 
   /** FULLSCREEN IMAGE **/
 
-  function fullscreenImage(){
-            $('#homeFullScreen').css({height:$(window).height()})   
-  }
+    function fullscreenImage(){
+      $('#homeFullScreen').css({height:$(window).height()})   
+    }
 
-  $(window).on("resize",function(e){
+    $(window).on("resize",function(e){
+      if ($('#homeFullScreen').length){
+          console.log("working!")
+          fullscreenImage();
+        }
+    });
 
-         if ($('#homeFullScreen').length)
-              {
-                  console.log("working!")
-                  fullscreenImage();
-              }
-      
-  });
-
-// Transition the header to sticky class when you reach about section //
-
-  $(function () {
-      $("#about").waypoint(function () {
-          $("#main-nav").toggleClass("sticky")
-      }, {
-          offset: 160
-      })
-  });
+  // Transition the header to sticky class when you reach about section //
+    $(function () {
+        $("#about").waypoint(function () {
+            $("#main-nav").toggleClass("sticky")
+        }, {
+            offset: 160
+        })
+    });
 
 
   // Music toggle //
@@ -187,6 +174,85 @@ $(document).ready(function() {
       }
     }
 
+    $('#slideshow-caption').center('#homeFullScreen');
+
+
+
+   $('body').on(
+      'click'
+      , '#form-submit'
+      , function (){
+        var name = $('#form-name')
+        , email = $('#form-email')
+        , msg = $('#form-message');
+
+        sendMail(
+          msg.val()
+          , email.val()
+          , name.val()
+          )
+
+      }
+
+   ) 
+
+//helper
+    
+
   }(jQuery));
 
+
 });
+  $.fn.center = function ( container ) {
+
+      var $this = $(this)
+          , container = container || window;
+      $this.css("position","fixed");
+
+      $(window).resize(
+        function(){
+
+          console.log( $(container).height() );
+          console.log( $(container).width() );
+
+          $this.css("top", Math.max(0, (($(container).height() - $this.outerHeight()) / 2) + 
+                                          $(container).scrollTop()) + "px");
+          $this.css("left", Math.max(0, (($(container).width() - $this.outerWidth()) / 2) + 
+                                          $(container).scrollLeft()) + "px");
+        }
+      ).resize();
+      return this;
+    }
+
+
+
+function sendMail (text, from_email, from_name) {
+
+  var myMail = new mail({
+    message: {
+      text: text
+      , html: ""
+            , subject: "Andrewhml: Contact Form"
+      , from_name: from_name
+      , from_email: from_email
+      , to: [
+                {
+                    "name": "Andrew Lee"
+                    , "email": "alee@syntheus.com"
+                }
+            ]
+    }
+  });
+
+  myMail.send(
+    function( s ){
+      if( s == 'sent'){
+        $('#form-container').html('<div class="form-thanks-msg">Thanks!!!!</div>')
+      }
+    }
+  );
+  //if( myMail.send() == 'sent'){
+      
+  //}
+}
+

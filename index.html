@@ -84,7 +84,7 @@
                 
             </div><!--End main-nav -->
             <header id="homeFullScreen" data-stellar-background-ratio="0.5">
-        <div class="container">
+        <div id="slideshow-caption" class="container">
                 <div class="row">
                     <div class="col-md-12 landing">
                         <h1>marketing</h1>
@@ -236,27 +236,29 @@
         <section id="contact" class="slice color2">
         <div class="container">
             <h1 class="slice-title">Contact</h1>
-            <div class="row">
-                <div class="col-md-1 col-md-offset-1">
-                    <img src="img/pigeon-icon2.png" alt="..." class="pigeon">
+            <div id="form-container">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1">
+                        <img src="img/pigeon-icon2.png" alt="..." class="pigeon">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1">
-                    <input class="form-control input-lg" type="text" placeholder="name">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <input id="form-name" class="form-control input-lg" type="text" placeholder="name">
+                    </div>
+                    <div class="col-md-5">
+                        <input id="form-email" class="form-control input-lg" type="text" placeholder="email">
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <input class="form-control input-lg" type="text" placeholder="email">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <textarea id="form-message" class="form-control" rows="10" placeholder="message"></textarea>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <textarea class="form-control" rows="10" placeholder="message"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">send pigeon</button>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <button id="form-submit" type="submit" class="btn btn-primary btn-lg btn-block">send pigeon</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,6 +293,7 @@
 
 
         <!-- Custom  -->
+        <script type="text/javascript" src="js/mail.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
 
 
