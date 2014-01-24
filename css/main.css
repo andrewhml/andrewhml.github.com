@@ -299,6 +299,21 @@ header p {
   display: block;
 }
 
+@media (max-width: 767px) {
+  #slideshow-caption h1 {
+    font-size: 2.5em;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  #slideshow-caption p {
+    font-size: 1em;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+}
 
 /* ABOUT
 ================================================== */
