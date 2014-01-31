@@ -459,6 +459,7 @@ header p {
   }
 
   #homeFullScreen {
+    min-width: 500px;
     background-position: 50% 0;
   }
 }
