@@ -220,8 +220,6 @@ $(function() {
       $(window).resize(
         function(){
 
-          console.log( $(container).height() );
-          console.log( $(container).width() );
 
           $this.css("top", Math.max(0, (($(container).height() - $this.outerHeight()) / 2) + 
                                           $(container).scrollTop()) + "px");
@@ -229,6 +227,8 @@ $(function() {
                                           $(container).scrollLeft()) + "px");
         }
       ).resize();
+
+      $(window).trigger('resize');
       return this;
     }
 
