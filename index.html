@@ -29,7 +29,7 @@
         
     </head>
     <body>
-        <nav id="offcanvas-menu" class="offcanvas-menu">
+        <div id="offcanvas-menu" class="offcanvas-menu">
             <div class="offcanvas-wrap">
                 <div class="offcanvas-brand">
                     <a class="navbar-brand scroll" data-easing="linear" data-url="true" href="http://andrewhml.github.io/">
@@ -52,8 +52,8 @@
                         </a>
                 </div>
                 <ul class="list-group">
-                  <li class="offcanvas-list-group"><a href="#work" class="scroll" data-easing="linear" data-url="true">work</a></li>
-                  <li class="offcanvas-list-group"><a href="#contact" class=" scroll" data-easing="linear" data-url="true">contact</a></li>
+                  <li class="offcanvas-list-group"><a data-scroll data-options='{ "offset": 0}' href="#work">work</a></li>
+                  <li class="offcanvas-list-group"><a data-scroll data-options='{ "offset": 0}' href="#contact">contact</a></li>
                   <li class="offcanvas-list-group"><a href="http://andrewhml.com/">blog</a></li>
                   <li class="offcanvas-list-group"><a href="#">apps</a></li>
                 </ul>
@@ -61,7 +61,7 @@
             <div id="menu-toggle">
                 <i class="fa fa-bars"></i>
             </div>
-        </nav>
+        </div>
 
         <div id="wrap">
             <div id="main-nav" class="navbar navbar-fixed-top scroll-header">
@@ -93,8 +93,8 @@
                     </div>
 
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#work" class="scroll" data-easing="linear" data-url="true">work</a></li>
-                                <li><a href="#contact" class=" scroll" data-easing="linear" data-url="true">contact</a></li>
+                                <li><a data-scroll href="#work">work</a></li>
+                                <li><a data-scroll href="#contact">contact</a></li>
                                 <li><a href="http://andrewhml.com/">blog</a></li>
                                 <li><a href="#">apps</a></li>
                                 <li class="music music-toggle music-playing">
@@ -333,13 +333,25 @@
         <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="js/waypoints.min.js"></script>
-        <script src="js/smooth-scroll.js"></script>
 
         <!-- Mail Javascript via Mandrillapp API -->
         <script type="text/javascript" src="js/mail.js"></script>
 
         <!-- Custom Application JavaScript -->
         <script type="text/javascript" src="js/test.js"></script>
+
+        <!-- Initialize Smooth Scroll -->
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+            smoothScroll.init({
+                speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+                easing: 'easeInOutCubic', // Easing pattern to use
+                updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+                offset: 90, // Integer. How far to offset the scrolling anchor location in pixels
+                callbackBefore: function ( toggle, anchor ) {}, // Function to run before scrolling
+                callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
+            });
+        </script>
 
 
     </body>
