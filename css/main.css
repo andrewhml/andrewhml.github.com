@@ -37,7 +37,8 @@
   -o-transition:padding .2s linear;
   -ms-transition:padding .2s linear;
   transition:padding .2s linear;
-
+  -webkit-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
 }
 
 .navbar-brand {
