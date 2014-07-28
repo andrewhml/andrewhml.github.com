@@ -128,8 +128,10 @@ a {
     width: 260px;
     height: 100%;
     top: 0;
-    z-index: 9999;
     text-align: left;
+    z-index: 9999;
+    -webkit-transform: translate3d(0,0,100px);
+    transform: translate3d(0,0,100px);
   }
 
   .offcanvas-wrap {
