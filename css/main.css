@@ -406,6 +406,10 @@ font-weight: 300;
 #homeFullScreen .container {
   left: 50%;
   top: 50%;
+  position:fixed;
+  z-index: 0;
+  -webkit-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
 }
 
 header h1 {
@@ -429,13 +433,6 @@ header p {
   color: #e2e2e2;
   margin-bottom: 2em;
   line-height: 2em;
-}
-
-#homeFullScreen .container {
-  position:fixed;
-  z-index: 0;
-  -webkit-transform: translate3d(0,0,0px);
-  transform: translate3d(0,0,0px);
 }
 
 .landing {
@@ -470,6 +467,8 @@ header p {
 #about {
   position:relative;
   z-index: 10;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 #about h2 {
@@ -517,6 +516,8 @@ header p {
   position:relative;
   z-index: 10;
   background-color: #ffffff;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 
@@ -532,6 +533,8 @@ header p {
   text-align: center;
   position:relative;
   z-index: 10;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 /* TOOLS
@@ -540,6 +543,8 @@ header p {
 #tools {
   position:relative;
   z-index: 10;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 .tool {
@@ -560,6 +565,8 @@ header p {
 #work {
   position:relative;
   z-index: 10;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 #work h3 {
@@ -624,6 +631,8 @@ header p {
   text-align: center;
   position:relative;
   z-index: 10;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 #contact .slice-title {
@@ -676,6 +685,8 @@ input[type=text]:focus, textarea:focus {
   position:relative;
   z-index: 10;
   background-color: #ffffff;
+  -webkit-transform: translate3d(0,0,10px);
+  transform: translate3d(0,0,10px);
 }
 
 .connect {
